@@ -1,0 +1,2 @@
+var menu
+var color

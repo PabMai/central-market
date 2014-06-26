@@ -1,0 +1,25 @@
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
+
+# KDE directory preferences
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Bower
+bower_components/**
+
+#Node
+node_modules/**
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+*.sublime-project

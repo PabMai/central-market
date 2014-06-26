@@ -1,0 +1,91 @@
+use `shopping-center`;
+
+INSERT INTO 
+Producto (nombre,fkCategoria,precio) 
+VALUES 
+('AIRE ACONDICIONADO SPLIT FRIO / CALOR PHILCO PHS25H13X',
+1,
+5199),
+('AIRE ACONDICIONADO SPLIT FRIO / CALOR ELECTROLUX EA09H',
+ 1,
+ 6499),
+('LAVARROPAS DREAN EXCELLENT BLUE! 7.09 G',
+1,
+4999
+),
+('LAVARROPAS CARGA SUPERIOR PHILCO WM-PH708',
+1,
+4299	
+),
+('HELADERA BAJO MESADA MABE HMA122',
+1,
+3999	
+),
+('HELADERA 2 FRIOS NEBA A318',
+1,
+4699
+),
+('Adhesivo la gotita 2 ml',
+2,
+7.90
+),
+('Manija Doble Balancin',
+2,
+89.95
+),
+('Candado De Bronce de 30 Mm',
+2,
+149
+),
+('Bisagra 26 Mm',
+2,
+18.20
+),
+('Caja De Herramientas 20 pulgadas',
+2,
+522),
+('Cereal Nestle Trix frutas de 230gr',
+3,
+29.70),
+('Azucar molida ledesma 1 kg',
+3,
+7.50),
+('Edulcorante liquido equalsweet 250 cc',
+3,
+20),
+('Aceite de maiz cocinero plus de 1 lt',
+3,
+31.90),
+('Cereal azucarado zucaritas keloggs 300gr',
+3,
+25),
+('Bife de chorizo great value x kg',
+4,
+115.90),
+('Matambre great value al vacio x kg',
+4,
+99.90),
+('Milanesa peceto great value al vacio x kg',
+4,
+112.90),
+('Vacio great value al vacio x kg',
+4,
+99.90),
+('Asado de tira novillo x kg',
+4,
+69.90),
+('Pan frances x kg',
+5,
+19.90),
+('Pan de campo 400gr',
+5,
+14.90),
+('Budin de chocolate',
+5,
+50),
+('Tarta manzana x kg',
+5,
+49.90)
+;
+
+SELECT * FROM `shopping-center`.Producto;

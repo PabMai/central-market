@@ -1,0 +1,20 @@
+{
+  "name": "Shopping Center",
+  "version": "0.1.0",
+  "authors": [
+    "PabMai <jpabmai@gmail.com>"
+  ],
+  "description": "Trabajo Practico de Seguridad",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "seguridad"
+  ],
+  "license": "MIT",
+  "private": true
+}
