@@ -1,13 +1,16 @@
-$( "li" ).click(function() {
+$(function(){
 
-	$( "li" ).each(function(){
-    	$( this ).removeClass("active");
-  	});
+	$("#menu-categorias li").click(function(){
 
-	var selector = $( this ).attr('id');
-	
-	$( "#"+selector ).addClass("active");
-	$( "#content" ).load("include/productos.php", {cat: selector});
+		$("li").each(function(){
+	    	$(this).removeClass("active");
+	  	});
+
+		var selector = $(this).attr('id');
+		
+		$("#"+selector).addClass("active");
+		$("#content").load("include/productos.php", {cat: selector});
+
+	});
 
 });
-
